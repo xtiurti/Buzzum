@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BUZZUM"
+        android:layout_weight="10"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView"
+        android:layout_weight="10"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="40"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:backgroundTint="#FFFB00"
+            android:src="@drawable/ic_action_name3"
+            android:id="@+id/imBtNextBus" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/black"
+            android:layout_weight="50"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/pontoweb"
+            android:id="@+id/imBtPoint" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:backgroundTint="@android:color/black"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/routeweb"
+            android:id="@+id/imBtRoute" />
+
+        <ImageButton
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFB00"
+            android:layout_weight="50"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/lostfoundweb"
+            android:id="@+id/imBtLostFound" />
+    </LinearLayout>
+
+</LinearLayout>
